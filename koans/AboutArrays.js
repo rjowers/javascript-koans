@@ -77,7 +77,7 @@ describe("About Arrays", function() {
     var array = [1, 2];
     array.push(3);
 
-    expect(array).toEqual(1, 2, 3);
+    expect(array).toEqual([1, 2, 3]);
 
     var poppedValue = array.pop();
     expect(poppedValue).toBe(3);
